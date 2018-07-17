@@ -1,0 +1,361 @@
+.btnLogOut{
+    display: none;
+}
+
+*{
+    margin: 0%;
+    font-family: "freight-sans-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.wapper-content{
+    width: 100%;
+    height: 100%;
+   background: #fff;
+}
+.content-login{
+    width: 30%;
+    height: 100%;
+    margin: 0% 0% 0% 70%;
+    align-content: center;
+    background: #3F51B5;
+   /*  padding: 1em 1em; */
+}
+.content-login form{
+    text-align: center;
+    padding: 3em 1em;   
+    
+}
+none
+.logo{
+    margin-top: 20px;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 100%;
+}
+.form-login{
+    padding: 1em 1em;
+    margin: 20px 0px;
+}
+.form-login h3{
+    color: #fff;
+    font-size: 1.5em;
+}
+.section-text{
+    margin: 20px 0px;
+}
+.section-value{
+    width: 100%;
+    border: none;
+    background: #3F51B5;
+    border-bottom: .5px solid #fff;
+    margin: 20px 0px;
+
+    padding: .2em 0px;
+   
+}
+.section-value input{
+    width: 90%;
+    background: #3F51B5;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    padding: .5em 0em .0em 0em;
+    
+}
+.input-user{
+    width: 100% !important;
+}
+/* header */
+.header-main{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px -1px 5px 0px #9E9E9E;
+}
+.header-main-content{
+    margin: 0px 5%;
+    padding: 0em 0em;
+    height: 100%;
+}
+.header-menu-profile{
+    align-content: right;
+}
+.header-section{
+    float: left;
+}
+.header-section nav{
+    padding: .4em .2em;
+    text-align: right;
+}
+.menu-header-main, .logo-web, .search-content{
+padding: 2em 1em;
+}
+.header-section nav ul li{
+    list-style: none;
+    float: left;
+    padding: 0em 1em;
+    margin: 3px 3px;
+}
+.header-section nav ul li img{
+    border-radius: 100%;
+    float: left;
+}
+#btnLogOut{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #ff4081;
+    display:none;
+    float: left;
+    cursor: pointer;
+    margin: 20px 0px 0px 10px;
+}
+.icon-menu, .icon-user, .icon-home2, .icon-search, .icon-config, .icon-question{
+    font-size: 1.3em;
+    padding: .48em;
+}
+#mensaggeRegisterValide{
+    color: #fff;
+}
+/*muro*/
+.devsite-banner-content{
+    width: 100%;
+    height: 400px;
+    order: 1px solid purple;
+}
+.devsite-newpost-content{
+    border: 1px solid #ff4081;
+}
+.devsite-section-nav{
+    border: 1px solid green;
+}
+.devsite-post{
+    border: 1px solid blue;
+}
+.devsite-page-nav{
+    border: 1px solid red;
+}
+/**/
+.section-button input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1em 0em;
+    margin: 10px 0px;;
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: uppercase;  
+    background: #ff4081;
+    cursor: pointer;
+}
+.or{
+    color: #fff;
+    
+}
+.loginAditional{
+    align-content: center;
+}
+.icon-facebook, .icon-google, .icon-mail2{
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 100%;
+    padding: .8em .8em;
+    margin: 0% 1%;
+    background: rgba(178,178,178, 0.4);
+    box-shadow: 0px 0px 4px 1px #ccc;
+    cursor: pointer;
+    
+}
+.icon-facebook:hover{
+    background: #ff4081;
+    box-shadow: 0px 0px 4px 1px rgba(204, 204, 204, 0.486);
+    
+} .icon-google:hover{
+    background: #ff4081;
+    box-shadow: 0px 0px 4px 1px rgba(204, 204, 204, 0.486);
+}
+ .icon-mail2:hover{
+    background: #ff4081;
+    box-shadow: 0px 0px 4px 1px rgba(204, 204, 204, 0.486);
+}
+.icon-checkmark{
+    color: #fff;
+}
+.icon-cross{
+    color: #ff4081;
+    padding: .1em .3em;
+}
+.icon-circle-left{
+    color: #fff;
+    font-size: 1.5em;
+    float: left;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.icon-circle-left:hover{
+    box-shadow: 0px 0px 4px 1px rgba(204, 204, 204, 0.486);
+}
+#messageValide{
+    color: #fff;
+    font-size: .8em;
+}
+.portada{
+    width: 70%;
+    height: 100%;
+    background: url(../img/portada.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    
+}
+.onPortada{
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 49, 49, 0.64);
+}
+.description-portada{
+    margin: 10% 5%;   
+    position: absolute;
+
+}
+.description-portada h2{
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #fff;
+}
+.description-portadaModo{
+    color: #ff4081;
+    font-size: 1.5em
+}
+.description-portadaMama{
+    color: #3F51B5;
+    font-weight: 800;
+    padding: 1em 0em;
+    font-size: 1.8em
+}
+.description{
+    color: #fff;
+    padding: 1em 0em;
+    margin: 5px 0px 0px 30px;
+}
+.description p{
+    font-weight: 100;
+}
+.icon-bubbles, .icon-gift, .icon-heart, .icon-flag{
+    font-size: 1.5em;
+    float: left;
+    margin-right: 20px;
+}
+#section-register-user{
+    display: none;
+}
+.menu-header-main{
+    display: none;
+}
+/*..................................................................................Post*/
+.menu-profile-user img{
+    width: 50px;
+    height: 50px;
+}
+.devsite-post{
+    width: 40%;
+    padding: 2em;
+    margin: 2% 30%;
+}
+.newpost{
+    border: 1px solid red;
+    padding: 1em 1em;
+    margin: 5px;
+}
+.newPost select {
+    padding: .5em 1em;
+    background: #3F51B5;
+    color: #fff;
+}
+.newPost p{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3F51B5;
+}
+/* ..........................all post*/
+.content-post{
+    border: 1px solid orange;
+    padding: 1em 1em;
+    margin: 5px;
+}
+.stream-item-header{
+    border: 1px solid purple;
+}
+.profile-user-post{
+    float: left;
+}
+.time{
+    float: left;
+}
+.icon-circle-down{
+    margin-left: 90%;
+}
+.action-content{
+    border: 1px solid #3F51B5;
+}
+.post-text-container{
+    border: 1px solid black;
+}
+.stream-item-footer{
+    border: 1px solid yellow;
+}
+.acciones-post ul{
+    width: 100%;
+}
+.stream-item-footer li{
+    list-style: none;
+    float: left;
+    padding: .2em 1em;
+    margin: 5px 5px;
+}
+.content-coment-post{
+    border: 1px solid brown;
+    padding: .3em .3em;
+    margin: 5px;
+}
+.content-coment-post input{
+    padding: 1em 2em;
+
+}
+@media (max-width:950px){
+    .content-login{
+        width: 50%;
+        margin: 0% 0% 0% 50%;
+    }
+    .portada{
+        width: 50%;
+    }
+    .description-portada h3{
+        font-size: 1.2em;
+    }
+}
+@media (max-width:750px){
+   .content-login{
+       width: 80%;
+       margin:0% 10%;
+   }
+    .portada{
+        display: none;
+    }
+}
+@media (max-width: 480px){
+    .content-login{
+        width: 100%;
+        margin: 2% 3%;
+        margin: 0%;
+    }
+    .wapper-content{
+        min-height: 450px;
+    }
+    .wapper-portada{
+        min-height: 450px;
+    }
+  
+
+}
